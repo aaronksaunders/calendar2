@@ -13,11 +13,15 @@ import UIKit
 // for help with the layout
 // http://stackoverflow.com/questions/18174980/creating-a-percentage-based-ios-layout
 //
+// Issues with Keyboard covering text
+// https://github.com/hackiftekhar/IQKeyboardManager
+//
 class ViewController: UIViewController {
 
     @IBOutlet weak var calendar: FSCalendar!
     @IBOutlet weak var tableView: EventViewController!
     
+    @IBOutlet weak var addNewEvent: UIBarButtonItem!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,7 +36,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    
+    @IBAction func unwindToViewController(segue: UIStoryboardSegue) {
+    }
 }
 
 //

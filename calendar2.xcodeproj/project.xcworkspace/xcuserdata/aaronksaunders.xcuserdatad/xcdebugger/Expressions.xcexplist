@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "AddEventViewController.pickEventDate(UIButton) -&gt; ():AddEventViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sender.accessibilityLabel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddEventViewController.(actionsheetDatePicker(AddEventViewController) -&gt; () -&gt; ()).(noOpHandler #1)(UIAlertAction)():AddEventViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
