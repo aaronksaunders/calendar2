@@ -55,7 +55,7 @@ extension ViewController: FSCalendarDataSource, FSCalendarDelegate  {
     }
     
     func calendar(calendar: FSCalendar!, hasEventForDate date: NSDate!) -> Bool {
-        <#code#>
+        return false
     }
 }
 
